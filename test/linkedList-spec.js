@@ -121,14 +121,14 @@ describe('Linked List Generator', function() {
         expect(newLinkedListB.getTail().value).to.equal('http://devleague.com');
 
         // really the same?
-        expect(newLinkedListB.getHead()).to.equal(newLinkedListB.getTail())
+        expect(newLinkedListB.getHead()).to.equal(newLinkedListB.getTail());
       });
     });
 
     describe('should append even more nodes', function () {
       it('`tail` should reference the most recently added node', function () {
         // add new nodes
-        newLinkedListC.add('http://eff.org')
+        newLinkedListC.add('http://eff.org');
         newLinkedListC.add('http://devleague.com');
 
         // tests!
